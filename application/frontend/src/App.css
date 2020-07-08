@@ -1,0 +1,48 @@
+.start {
+  background: url("img/index.jpg") no-repeat bottom 30% center fixed;
+  background-size: cover;
+}
+
+.background {
+  background-color: black;
+  width: 530px;
+  height: 330px;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+}
+
+.welcome-block {
+  width: 530px;
+  height: 330px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background-color: white;
+  display: block;
+}
+
+.welcome-block h1 {
+  font: 150px Anaheim;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+}
+
+.welcome-block button {
+  font: 28px Arsenal;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 170px;
+  text-align: left;
+  position: absolute;
+  top: 250px;
+  padding-left: 20px;
+  transition: 1s;
+}
+.welcome-block button:hover {
+  color: #abc920;
+}
